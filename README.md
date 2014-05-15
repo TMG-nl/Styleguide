@@ -12,7 +12,7 @@
   1. [Functions](#functions)
   1. [Properties](#properties)
   1. [Variables](#variables)
-  1. [Hoisting](#hoisting)
+  1. [Hoisting](#hoisting)s
   1. [Conditional Expressions & Equality](#conditional-expressions--equality)
   1. [Blocks](#blocks)
   1. [Comments](#comments)
@@ -722,7 +722,7 @@
 
 ## Whitespace
 
-  - Use soft tabs set to 2 spaces
+  - Use tabs for indentation
 
     ```javascript
     // bad
@@ -737,7 +737,7 @@
 
     // good
     function() {
-    ∙∙var name;
+      var name;
     }
     ```
 
