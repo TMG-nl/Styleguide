@@ -2,10 +2,12 @@
 
 ## Table of Contents
 
-1. [General Style](#general-style)
-2. [External Links](#external-links)
+1. [General Rules](#general-rules)
+1. [Code Format](#code-format)
+1. [External Links](#external-links)
+1. [SCSS](#scss)
 
-## General Style
+## General Rules
 
 - Use tabs for indentation.
 
@@ -40,9 +42,14 @@
 		color: darken($white, 50%);
 	}
 	```
+
+**[⬆ back to top](#table-of-contents)**
+
+## Code Format	
+	
 - When grouping selectors, use one line per selector.
 
-- Add one space between the end of the selector and `{
+- Add one space between the end of the selector and `{`
 
 - Add one space after the `:` in properties.
 
@@ -69,6 +76,12 @@
 
 - Hex values for colors in lowercases. `#fafafa` instead of `#FAFAFA`.
 - Hex values for colors in shorthand, if possible. `#bbb` instead of `#bbbbbb`.
+
+**[⬆ back to top](#table-of-contents)**
+
+## SCSS
+
+To be determined.
 
 **[⬆ back to top](#table-of-contents)**
 
