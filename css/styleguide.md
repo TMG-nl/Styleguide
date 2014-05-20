@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [General Style](#general-styles) 
+1. [General Style](#general-style) 
 
 ## General Style
 
@@ -39,3 +39,5 @@
 	```
 
 **[⬆ back to top](#table-of-contents)**
+
+#}
