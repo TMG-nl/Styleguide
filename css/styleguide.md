@@ -40,10 +40,11 @@
 		color: darken($white, 50%);
 	}
 	```
-- One line per selector.
-- Space between the end of selector and `{`.
-- Space after the `:` in properties.
-- Always add `;` to end of declarations.
+- When grouping selectors, use one line per selector.
+- Add one space between the end of the selector and `{`.
+- Add one space after the `:` in properties.
+- One line per declaration.
+- End all declarations with `;`.
 
   ```css
   // good
@@ -51,14 +52,19 @@
   .footer-text,
   .banner {
       color: $light-blue;
+      line-height: 1.2em;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
   }
   
   // bad
   .main-header, .footer-text, .banner{
+      text-shadow: 0 1px 1px rgba(0,0,0,.5); line-height: 1.2em;      
       color:$light-blue
   }
   ```
 
+- Hex values for colors in lowercases. `#fafafa` instead of `#FAFAFA`.
+- Hex values for colors in shorthand, if possible. `#bbb` instead of `#bbbbbb`.
 
 **[⬆ back to top](#table-of-contents)**
 
