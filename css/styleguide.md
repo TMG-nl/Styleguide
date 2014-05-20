@@ -23,7 +23,7 @@
    padding-left: 0px;
    ```
    
-- Unless there is a really good reason to, _avoid_ using IDs for CSS styling.
+- **Avoid** using IDs for CSS styling, unless there is a really good reason to.
 
 - When using colors, always use a `$variable`. Either creating a new one if it's a new color, or reusing the existing ones. Use of the `darken()` and `lighten()` Sass functions is encouraged.
 
