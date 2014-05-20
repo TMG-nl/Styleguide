@@ -2,7 +2,8 @@
 
 ## Table of Contents
 
-1. [General Style](#general-style) 
+1. [General Style](#general-style)
+2. [External Links](#external-links)
 
 ## General Style
 
@@ -41,7 +42,7 @@
 	```
 - One line per selector.
 - Space between the end of selector and `{`.
-- Space after the `:` in property declarations.
+- Space after the `:` in properties.
 - Always add `;` to end of declarations.
 
   ```css
@@ -60,5 +61,11 @@
 
 
 **[⬆ back to top](#table-of-contents)**
+
+## External Links
+* [CSS Vocabulary](http://pumpula.net/p/apps/css-vocabulary/).
+
+**[⬆ back to top](#table-of-contents)**
+
 
 #}
