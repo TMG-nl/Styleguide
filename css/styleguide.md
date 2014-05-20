@@ -41,9 +41,13 @@
 	}
 	```
 - When grouping selectors, use one line per selector.
-- Add one space between the end of the selector and `{`.
+
+- Add one space between the end of the selector and `{
+
 - Add one space after the `:` in properties.
+
 - One line per declaration.
+
 - End all declarations with `;`.
 
   ```css
