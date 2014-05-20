@@ -8,6 +8,8 @@
 
 - Use tabs for indentation.
 
+- For strings, use `"double quotes"`.
+
 - Avoid the use of `!important` as much as _absolutely_ possible.
 
 - If the value of a property is `0`, do not specify units.
