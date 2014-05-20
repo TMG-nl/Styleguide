@@ -39,6 +39,25 @@
 		color: darken($white, 50%);
 	}
 	```
+- One line per selector.
+- Space between the end of selector and `{`.
+- Space after the `:` in property declarations.
+- Always add `;` to end of declarations.
+
+  ```css
+  // good
+  .main-header,
+  .footer-text,
+  .banner {
+      color: $light-blue;
+  }
+  
+  // bad
+  .main-header, .footer-text, .banner{
+      color:$light-blue
+  }
+  ```
+
 
 **[⬆ back to top](#table-of-contents)**
 
