@@ -15,6 +15,8 @@
 
 - Avoid the use of `!important` as much as _absolutely_ possible.
 
+- Avoid trailing spaces          
+
 - If the value of a property is `0`, do not specify units.
 
    ```css
