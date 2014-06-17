@@ -83,7 +83,47 @@
 
 ## SCSS
 
-To be determined.
+- Do not use more than 3 nested selectors, if possible. If it seems that you need to, review your HTML structure:
+
+	```css
+	// bad
+	#main {
+		color: $main;
+		.cc33 {
+			border: 1px;
+			.article {
+				padding: 10px;
+				.normal { /* one nested selecto too many! */
+					background-color: $bg-main-color;
+				}
+			}
+		}
+	}
+	```
+
+- When nesting selectors, always put a line-break between the last declaration of the parent selector and the new/child nested selector:
+
+	```css
+	// bad
+	#main {
+		color: $main;
+		font-size: 12px;
+		.cc33 {
+			border: 1px;
+		}
+	}
+	
+	// good
+	#main {
+		color: $main;
+		font-size: 12px;
+		
+		.cc33 {
+			border: 1px;
+		}
+	}
+	```
+
 
 **[⬆ back to top](#table-of-contents)**
 
