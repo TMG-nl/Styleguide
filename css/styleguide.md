@@ -4,8 +4,8 @@
 
 1. [General Rules](#general-rules)
 1. [Code Format](#code-format)
-1. [External Links](#external-links)
 1. [SCSS](#scss)
+1. [External Links](#external-links)
 
 ## General Rules
 
