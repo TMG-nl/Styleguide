@@ -48,6 +48,8 @@
 **[⬆ back to top](#table-of-contents)**
 
 ## Code Format	
+
+- Do not use `camelCasingNaming` for classes or IDs. Instead, go for `dashed-separated-naming`.
 	
 - When grouping selectors, use one line per selector.
 
