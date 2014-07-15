@@ -44,6 +44,8 @@
 		color: darken($white, 50%);
 	}
 	```
+	
+- When using `z-index`, use a `$variable` and put it on the global scss partial. Use a semantic variable name for it, so it can be reused.
 
 **[⬆ back to top](#table-of-contents)**
 
