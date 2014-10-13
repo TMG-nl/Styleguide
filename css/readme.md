@@ -31,7 +31,7 @@
 
 - When using colors, always use a `$variable`. Either creating a new one if it's a new color, or reusing the existing ones. Use of the `darken()` and `lighten()` Sass functions is encouraged.
 
-	```css
+	```scss
 	// good
 	$white: #fafafa;
 	$header-background: $white;
@@ -49,7 +49,7 @@
 
 - Use _single colon_ for `pseudo-selectors` and _double colons_ for `pseudo-elements`.
 
-	```css
+	```scss
 	// pseudo-selectos
 	.element {
 		&:hover {
@@ -104,7 +104,7 @@
 
 - Do not use more than 3 nested selectors, if possible. If it seems that you need to, review your HTML structure:
 
-	```css
+	```scss
 	// bad
 	#main {
 		color: $main;
@@ -122,7 +122,7 @@
 
 - When nesting selectors, always put a line-break between the last declaration of the parent selector and the new/child nested selector:
 
-	```css
+	```scss
 	// bad
 	#main {
 		color: $main;
