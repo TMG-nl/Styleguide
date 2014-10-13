@@ -47,6 +47,21 @@
 	
 - When using `z-index`, use a `$variable` and put it on the global scss partial. Use a semantic variable name for it, so it can be reused.
 
+- Use _single colon_ for `pseudo-selectors` and _double colons_ for `pseudo-elements`.
+
+	```css
+	// pseudo-selectos
+	.element {
+		&:hover {
+			// pseudo-selector
+		}
+
+		&::after {
+			// pseudo-element
+		}
+	}
+	```
+
 **[⬆ back to top](#table-of-contents)**
 
 ## Code Format	
