@@ -47,6 +47,8 @@
 	
 - When using `z-index`, use a `$variable` and put it on the global scss partial. Use a semantic variable name for it, so it can be reused.
 
+- Always leave one empty line at the end of the file. 
+
 - Use _single colon_ for `pseudo-selectors` and _double colons_ for `pseudo-elements`.
 
 	```scss
