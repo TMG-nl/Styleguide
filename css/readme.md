@@ -9,13 +9,13 @@
 
 ## General Rules
 
-- Use tabs for indentation.
+- Use 2 spaces for indentation.
 
-- For strings, use `"double quotes"`.
+- For strings, use `'double quotes'`.
 
 - Avoid the use of `!important` as much as _absolutely_ possible.
 
-- Avoid trailing spaces          
+- Avoid trailing spaces.
 
 - If the value of a property is `0`, do not specify units.
 
@@ -45,9 +45,9 @@
 	}
 	```
 	
-- When using `z-index`, use a `$variable` and put it on the global scss partial. Use a semantic variable name for it, so it can be reused.
+- When using `z-index`, use a `$variable` and put it on the global `.scss` partial. Use a meaningful variable name for it, so it can be reused.
 
-- Always leave one empty line at the end of the file. 
+- Always leave one empty line at the end of the file.
 
 - Use _single colon_ for `pseudo-selectors` and _double colons_ for `pseudo-elements`.
 
@@ -68,9 +68,18 @@
 
 ## Code Format	
 
-- Do not use `camelCasingNaming` for classes or IDs. Instead, go for `dashed-separated-naming`.
+- Do not use `camelCasingNaming` or `snake_casing_style` for classes or variable names. Instead, go for `dashed-separated-naming`.
 	
 - When grouping selectors, use one line per selector.
+```scss
+// Bad
+.selector, .another-one, .even-another-one {}
+
+// Good
+.selector,
+.another-one,
+.even-another-one { }
+```
 
 - Add one space between the end of the selector and `{`
 
@@ -97,8 +106,8 @@
   }
   ```
 
-- Hex values for colors in lowercases. `#fafafa` instead of `#FAFAFA`.
-- Hex values for colors in shorthand, if possible. `#bbb` instead of `#bbbbbb`.
+- Hex values for colors in uppercase. `#FAFAFA` instead of `#fafafa`.
+- Hex values for colors in longhand always — `#bbbbbb` instead of `#bbb`.
 
 **[⬆ back to top](#table-of-contents)**
 
