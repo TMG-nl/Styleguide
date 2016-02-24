@@ -71,15 +71,15 @@
 - Do not use `camelCasingNaming` or `snake_casing_style` for classes or variable names. Instead, go for `dashed-separated-naming`.
 	
 - When grouping selectors, use one line per selector.
-```scss
-// Bad
-.selector, .another-one, .even-another-one {}
-
-// Good
-.selector,
-.another-one,
-.even-another-one { }
-```
+	```scss
+	// Bad
+	.selector, .another-one, .even-another-one {}
+	
+	// Good
+	.selector,
+	.another-one,
+	.even-another-one { }
+	```
 
 - Add one space between the end of the selector and `{`
 
